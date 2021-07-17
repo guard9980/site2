@@ -152,6 +152,9 @@ line-height: 24px;
     display: block;
     width: 600px;
 }
+.s3block img{
+  max-width: 600px;  
+}
 .a5{
     text-align: center;
     display: block;
@@ -393,6 +396,9 @@ line-height: 24px;
     *{
         font-size: 20px;
     }
+    .s3block img{
+        max-width: 400px;  
+      }
     .block1, .block2{
         margin: 0 auto;
     }
