@@ -42,7 +42,8 @@ a{
     display: flex;
 }
 .block2 img{
-    width: 400px;
+    max-width: 400px;
+    height: 400px;
 }
 .block1{
     float: left;
@@ -153,7 +154,8 @@ line-height: 24px;
     width: 600px;
 }
 .s3block img{
-  max-width: 600px;  
+  max-width: 600px; 
+  height: 500px;
 }
 .a5{
     text-align: center;
