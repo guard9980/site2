@@ -3,6 +3,9 @@ body{
     color: black;
     font-family: sans-serif;
 }
+*{
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
     color: black;
@@ -11,8 +14,6 @@ a{
     height: 70px;
 }
 .container{
-    padding-left: 30px;
-    padding-right: 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -96,7 +97,9 @@ line-height: 24px;
 }
 .btn{
    
-    padding: 14px 10px;
+   font-size: 20px;
+   padding: 10px 14px;
+   float: left;
     border-radius: 10%;
     background-color: #fab700;
 }
@@ -202,10 +205,6 @@ border-radius: 30%;
     color: #DC780B;
 }
 .contentbox a{
-    float: left;
-    
-    height: 20px;
-    width: 20px;
 }
 .contenttext{
     margin: 0 auto;
@@ -245,11 +244,11 @@ color: #150C01;
     display: flex;
     flex-wrap: wrap;
     flex-grow: inherit;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .section5{
     height: 900px;
-    margin-top: 100px;
+    margin-top: 240px;
 }
 .textn5{
     font-style: normal;
@@ -428,7 +427,7 @@ line-height: 24px;
 }
 @media (max-width: 740px){
     .section4{
-        height: 1600px;
+        height: 1500px;
     }
     .contentbox{
         margin-top: 30px;
@@ -438,7 +437,7 @@ line-height: 24px;
 }
 @media (max-width: 740px){
     .section4{
-        height: 2300px;
+        height: 1500px;
     }
 }
 @media (max-width: 720px){
@@ -450,5 +449,13 @@ line-height: 24px;
     }
     .sblock1{
         margin-top: 40px;
+    }
+}
+@media (max-width: 615px){
+    .section4{
+        height: 2450px;
+    }
+    .section2{
+        height: 970px;
     }
 }
