@@ -398,7 +398,8 @@ line-height: 24px;
         font-size: 20px;
     }
     .s3block img{
-        max-width: 400px;  
+        width: 70%;  
+        height: 70%;
       }
     .block1, .block2{
         margin: 0 auto;
@@ -441,6 +442,9 @@ line-height: 24px;
     }
 }
 @media (max-width: 720px){
+    body{
+        font-size: 10px;
+    }
     .section2{
         height: 900px;
     }
