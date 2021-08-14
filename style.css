@@ -383,12 +383,15 @@ line-height: 24px;
     }
 }
 @media (max-width: 1060px){
-    .section4{
-        height: 1500px;
-    }
+    
     .contentblock{
         justify-content: space-around;
     }
+}
+@media (max-width: 991px){
+.section4{
+    height: 1500px;
+}
 }
 @media (max-width: 900px){
     *{
