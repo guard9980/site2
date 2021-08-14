@@ -6,6 +6,7 @@ body{
 *{
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -13,9 +14,8 @@ a{
 .header{
     height: 70px;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.bag{
+    background-color: rgba(141, 141, 141, 0);
 }
 .a1{
     height: 70px;
@@ -95,7 +95,7 @@ line-height: 24px;
 .subimg img{
     width: 100%;
 }
-.btn{
+.btn222{
    
    font-size: 20px;
    padding: 10px 14px;
@@ -270,10 +270,7 @@ line-height: 24px;
     margin: 0 auto;
 }
 .a6{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    margin: 0 auto;
 }
 .blocks5_2 img{
     border-radius: 20%;
@@ -378,7 +375,7 @@ line-height: 24px;
         height: 600px;
     }
     .section3{
-        height: 800px;
+        height: 400px;
     }
     .s3block{
         
@@ -408,27 +405,39 @@ line-height: 24px;
         max-width: 500px;
     }
     .section1{
-        height: 900px;
+        height: 600px;
     }
     .section2{
-        height: 700px;
+        height: 500px;
     }
     .section3{
-        height: 800px;
+        height: 400px;
     }
     .btn_menu{
         display: block;
     }
-    .a1 .btn{
+    .a1 .btn222{
         display: none;
     }
     .menu a{
         display: none;
     }
 }
-@media (max-width: 740px){
+@media (max-width: 767px){
+    .section1{
+        height: 1000px;
+    }
+    .section2{
+        height: 800px;
+    }
+    .section3{
+        height: 800px;
+    }
     .section4{
-        height: 1500px;
+        height: 2800px;
+    }
+    .section6{
+        height: 600px;
     }
     .contentbox{
         margin-top: 30px;
@@ -437,29 +446,14 @@ line-height: 24px;
     }
 }
 @media (max-width: 740px){
-    .section4{
-        height: 1500px;
-    }
+   
 }
 @media (max-width: 720px){
     body{
         font-size: 10px;
     }
-    .section2{
-        height: 900px;
-    }
-    .section5{
-        margin-top: 200px;
-    }
-    .sblock1{
-        margin-top: 40px;
-    }
+   
 }
 @media (max-width: 615px){
-    .section4{
-        height: 2450px;
-    }
-    .section2{
-        height: 970px;
-    }
+   
 }
